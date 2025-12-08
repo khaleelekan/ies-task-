@@ -1,0 +1,13 @@
+{
+  "/ai-summary/page": "app/ai-summary/page.js",
+  "/api/attendance/route": "app/api/attendance/route.js",
+  "/api/classes/[id]/route": "app/api/classes/[id]/route.js",
+  "/api/classes/route": "app/api/classes/route.js",
+  "/api/students/[id]/route": "app/api/students/[id]/route.js",
+  "/api/students/route": "app/api/students/route.js",
+  "/attendance/page": "app/attendance/page.js",
+  "/classes/page": "app/classes/page.js",
+  "/page": "app/page.js",
+  "/students/page": "app/students/page.js",
+  "/teams-integration/page": "app/teams-integration/page.js"
+}
