@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Plus, Edit, Trash2, AlertTriangle } from "lucide-react"
+import { Plus, Edit, Trash2, AlertTriangle, Save } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import {
@@ -49,9 +49,17 @@ export default function StudentsPage() {
   const [students, setStudents] = useState<Student[]>([])
   const [classes, setClasses] = useState<Class[]>([])
   const [isDialogOpen, setIsDialogOpen] = useState(false)
+  const [isEditDialogOpen, setIsEditDialogOpen] = useState(false)
   const [isDeleteDialogOpen, setIsDeleteDialogOpen] = useState(false)
   const [studentToDelete, setStudentToDelete] = useState<Student | null>(null)
+  const [studentToEdit, setStudentToEdit] = useState<Student | null>(null)
   const [newStudent, setNewStudent] = useState({ 
+    name: "", 
+    className: "", 
+    email: "", 
+    status: "Active" as "Active" | "Inactive" 
+  })
+  const [editStudent, setEditStudent] = useState({ 
     name: "", 
     className: "", 
     email: "", 
@@ -179,6 +187,83 @@ export default function StudentsPage() {
     }
   }
 
+  const handleEditClick = (student: Student) => {
+    setStudentToEdit(student)
+    setEditStudent({
+      name: student.name,
+      className: student.class_name,
+      email: student.email || "",
+      status: student.status
+    })
+    setIsEditDialogOpen(true)
+  }
+
+  const handleUpdateStudent = async () => {
+    if (!studentToEdit) return
+
+    // Validate input
+    if (!editStudent.name.trim()) {
+      toast({
+        title: "Validation Error",
+        description: "Student name is required.",
+        variant: "destructive",
+      })
+      return
+    }
+
+    if (!editStudent.className) {
+      toast({
+        title: "Validation Error",
+        description: "Please select a class.",
+        variant: "destructive",
+      })
+      return
+    }
+
+    // Validate email format if provided
+    if (editStudent.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(editStudent.email)) {
+      toast({
+        title: "Validation Error",
+        description: "Please enter a valid email address.",
+        variant: "destructive",
+      })
+      return
+    }
+
+    try {
+      const response = await fetch(`/api/students/${studentToEdit.id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: editStudent.name.trim(),
+          class_name: editStudent.className,
+          email: editStudent.email.trim() || null,
+          status: editStudent.status,
+        }),
+      })
+
+      if (!response.ok) {
+        const errorData = await response.json()
+        throw new Error(errorData.error || errorData.message || 'Failed to update student')
+      }
+
+      setIsEditDialogOpen(false)
+      await fetchStudents()
+      
+      toast({
+        title: "Success",
+        description: "Student updated successfully.",
+      })
+    } catch (error) {
+      console.error('Failed to update student:', error)
+      toast({
+        title: "Error",
+        description: error instanceof Error ? error.message : "Failed to update student. Please try again.",
+        variant: "destructive",
+      })
+    }
+  }
+
   const handleDeleteClick = (student: Student) => {
     setStudentToDelete(student)
     setIsDeleteDialogOpen(true)
@@ -213,13 +298,6 @@ export default function StudentsPage() {
       setIsDeleteDialogOpen(false)
       setStudentToDelete(null)
     }
-  }
-
-  const handleEditStudent = (id: number) => {
-    toast({
-      title: "Info",
-      description: "Edit functionality coming soon.",
-    })
   }
 
   return (
@@ -313,6 +391,85 @@ export default function StudentsPage() {
           </DialogContent>
         </Dialog>
       </div>
+
+      {/* Edit Student Modal */}
+      <Dialog open={isEditDialogOpen} onOpenChange={setIsEditDialogOpen}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>Edit Student</DialogTitle>
+            <DialogDescription>Update student information</DialogDescription>
+          </DialogHeader>
+          <div className="space-y-4 py-4">
+            <div className="space-y-2">
+              <Label htmlFor="edit-student-name">Student Name *</Label>
+              <Input
+                id="edit-student-name"
+                placeholder="e.g., John Doe"
+                value={editStudent.name}
+                onChange={(e) => setEditStudent({ ...editStudent, name: e.target.value })}
+                required
+              />
+            </div>
+            <div className="space-y-2">
+              <Label htmlFor="edit-class">Class *</Label>
+              <Select
+                value={editStudent.className}
+                onValueChange={(value) => setEditStudent({ ...editStudent, className: value })}
+              >
+                <SelectTrigger id="edit-class">
+                  <SelectValue placeholder="Select a class" />
+                </SelectTrigger>
+                <SelectContent>
+                  {classes.map((classItem) => (
+                    <SelectItem key={classItem.id} value={classItem.name}>
+                      {classItem.name}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+            <div className="space-y-2">
+              <Label htmlFor="edit-email">Email (Optional)</Label>
+              <Input
+                id="edit-email"
+                type="email"
+                placeholder="student@example.com"
+                value={editStudent.email}
+                onChange={(e) => setEditStudent({ ...editStudent, email: e.target.value })}
+              />
+            </div>
+            <div className="space-y-2">
+              <Label htmlFor="edit-status">Status</Label>
+              <Select
+                value={editStudent.status}
+                onValueChange={(value: "Active" | "Inactive") => 
+                  setEditStudent({ ...editStudent, status: value })
+                }
+              >
+                <SelectTrigger id="edit-status">
+                  <SelectValue placeholder="Select status" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="Active">Active</SelectItem>
+                  <SelectItem value="Inactive">Inactive</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+          </div>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setIsEditDialogOpen(false)}>
+              Cancel
+            </Button>
+            <Button 
+              onClick={handleUpdateStudent}
+              disabled={!editStudent.name.trim() || !editStudent.className}
+            >
+              <Save className="h-4 w-4 mr-2" />
+              Update Student
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
 
       {/* Delete Confirmation Modal */}
       <AlertDialog open={isDeleteDialogOpen} onOpenChange={setIsDeleteDialogOpen}>
@@ -417,7 +574,7 @@ export default function StudentsPage() {
                         <Button 
                           variant="ghost" 
                           size="icon"
-                          onClick={() => handleEditStudent(student.id)}
+                          onClick={() => handleEditClick(student)}
                         >
                           <Edit className="h-4 w-4" />
                         </Button>
