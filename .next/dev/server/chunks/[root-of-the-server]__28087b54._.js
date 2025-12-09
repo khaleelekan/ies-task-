@@ -58,10 +58,25 @@ const sql = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f4
 async function GET() {
     try {
         const classes = await sql`
-      SELECT * FROM classes 
-      ORDER BY created_at DESC
+      SELECT 
+        c.id,
+        c.name,
+        c.teacher,
+        c.description,
+        c.created_at,
+        c.updated_at,
+        COUNT(s.id) as number_of_students
+      FROM classes c
+      LEFT JOIN students s ON c.name = s.class_name
+      GROUP BY c.id, c.name, c.teacher, c.description, c.created_at, c.updated_at
+      ORDER BY c.created_at DESC
     `;
-        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json(classes);
+        // Parse all number_of_students to integers
+        const parsedClasses = classes.map((cls)=>({
+                ...cls,
+                number_of_students: parseInt(cls.number_of_students) || 0
+            }));
+        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json(parsedClasses);
     } catch (error) {
         console.error('Error fetching classes:', error);
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
@@ -81,12 +96,28 @@ async function POST(request) {
                 status: 400
             });
         }
+        // Check if class with same name already exists
+        const [existingClass] = await sql`
+      SELECT * FROM classes WHERE name = ${name}
+    `;
+        if (existingClass) {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+                error: 'Class with this name already exists'
+            }, {
+                status: 409
+            });
+        }
         const [newClass] = await sql`
       INSERT INTO classes (name, teacher, description) 
-      VALUES (${name}, ${teacher}, ${description}) 
+      VALUES (${name}, ${teacher}, ${description || null}) 
       RETURNING *
     `;
-        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json(newClass, {
+        // Return with number_of_students = 0 for new class
+        const newClassWithCount = {
+            ...newClass,
+            number_of_students: 0
+        };
+        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json(newClassWithCount, {
             status: 201
         });
     } catch (error) {

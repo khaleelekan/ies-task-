@@ -1,209 +1,175 @@
-[00:00:02.562] Server  LOG      ✓ Ready in 1794ms
-[00:00:08.831] Server  LOG      ○ Compiling / ...
-[00:00:10.861] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:11.061] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:11.061] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:11.061] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765148470294}
-[00:00:48.482] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765148507705}
-[00:01:31.566] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765148550787}
-[00:02:11.230] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765148590449}
-[00:02:32.412] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ai-summary color: rgb(120, 120, 120) color: inherit {"dp":"/ai-summary","o":"http://localhost:3000/ai-summary","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765148611625}
-[00:03:01.882] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765148641110}
-[00:03:06.540] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:06.703] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:03:06.703] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/classes","route":"/classes"}
-[00:03:06.703] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765148645936}
-[00:04:28.843] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:04:28.846] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\.next\dev\server\chunks\[root-of-the-server]__6e341967._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:04:28.853] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:04:28.858] Server  WARN    Error: Route "/api/classes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:04:28.975] Browser ERROR   Failed to delete class: {}
-[00:04:31.104] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:04:31.105] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\.next\dev\server\chunks\[root-of-the-server]__6e341967._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:04:31.106] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:04:31.108] Server  WARN    Error: Route "/api/classes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:04:31.214] Browser ERROR   Failed to delete class: {}
-[00:04:32.551] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:04:32.552] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\.next\dev\server\chunks\[root-of-the-server]__6e341967._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:04:32.553] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:04:32.556] Server  WARN    Error: Route "/api/classes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:04:32.664] Browser ERROR   Failed to delete class: {}
-[00:04:47.539] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:04:47.540] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\.next\dev\server\chunks\[root-of-the-server]__6e341967._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:04:47.541] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:04:47.542] Server  WARN    Error: Route "/api/classes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:04:47.652] Browser ERROR   Failed to delete class: {}
-[00:04:49.284] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:04:49.285] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\.next\dev\server\chunks\[root-of-the-server]__6e341967._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:04:49.286] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:04:49.289] Server  WARN    Error: Route "/api/classes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:04:49.395] Browser ERROR   Failed to delete class: {}
-[00:05:01.387] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765148760616}
-[00:11:12.322] Server  LOG        Reload env: .env.local
-[00:17:23.180] Server  LOG        Reload env: .env.local
-[00:30:07.166] Server  LOG        Reload env: .env.local
-[00:33:46.885] Server  LOG        Reload env: .env.local
-[00:38:22.624] Server  LOG        Reload env: .env
-[00:56:30.294] Server  LOG      ✓ Compiled in 587ms
-[01:12:22.906] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765152802135}
-[01:12:31.738] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765152810822}
-[01:12:36.209] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765152815409}
-[01:12:39.142] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ai-summary color: rgb(120, 120, 120) color: inherit {"dp":"/ai-summary","o":"http://localhost:3000/ai-summary","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765152818336}
-[01:12:46.536] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teams-integration color: rgb(120, 120, 120) color: inherit {"dp":"/teams-integration","o":"http://localhost:3000/teams-integration","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765152825764}
-[01:12:48.318] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765152827541}
-[01:12:52.422] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765152831649}
-[01:12:57.505] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765152836733}
-[01:13:35.173] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:13:35.175] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\.next\dev\server\chunks\[root-of-the-server]__10ed1d9d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:13:35.177] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:13:35.181] Server  WARN    Error: Route "/api/classes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[01:13:36.772] Browser ERROR   Failed to delete class: {}
-[01:13:45.171] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765152884401}
-[01:14:11.779] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:14:12.028] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:14:12.028] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/students","route":"/students"}
-[01:14:12.028] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765152911261}
-[01:15:08.939] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ai-summary color: rgb(120, 120, 120) color: inherit {"dp":"/ai-summary","o":"http://localhost:3000/ai-summary","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765152968127}
-[01:15:24.024] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765152983254}
-[01:15:25.707] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765152984938}
-[01:22:23.057] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:22:23.059] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\.next\dev\server\chunks\[root-of-the-server]__10ed1d9d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:22:23.061] Server  ERROR   C:\Users\USER\Desktop\i-e-school-admin-panel\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:22:23.069] Server  WARN    Error: Route "/api/classes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[01:22:24.129] Browser ERROR   Failed to delete class: {}
-[01:24:26.240] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:24:26.503] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:24:26.504] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/classes","route":"/classes"}
-[01:24:26.504] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765153525736}
-[01:27:55.938] Server  LOG      ✓ Compiled in 226ms
-[01:28:38.290] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <p> p 
-
-  ...
-    <FocusScope asChild={true} loop={true} trapped={true} onMountAutoFocus={function handleEvent} ...>
-      <Primitive.div tabIndex={-1} asChild={true} ref={function} ...>
-        <Slot tabIndex={-1} onKeyDown={function FocusScope.useCallback[handleKeyDown]} ref={function}>
-          <SlotClone tabIndex={-1} onKeyDown={function FocusScope.useCallback[handleKeyDown]} ref={function}>
-            <DismissableLayer role="alertdialog" id="radix-_r_3_" aria-describedby="radix-_r_5_" ...>
-              <Primitive.div role="alertdialog" id="radix-_r_3_" aria-describedby="radix-_r_5_" ...>
-                <div role="alertdialog" id="radix-_r_3_" aria-describedby="radix-_r_5_" aria-labelledby="radix-_r_4_" ...>
-                  <Slottable>
-                    <AlertDialogHeader>
-                      <div data-slot="alert-dial..." className="flex flex-...">
-                        <div>
-                        <AlertDialogDescription className="pt-4">
-                          <AlertDialogDescription data-slot="alert-dial..." className="text-muted...">
-                            <DialogDescription __scopeDialog={{Dialog:[...]}} data-slot="alert-dial..." ...>
-                              <Primitive.p id="radix-_r_5_" data-slot="alert-dial..." className="text-muted..." ...>
->                               <p
->                                 id="radix-_r_5_"
->                                 data-slot="alert-dialog-description"
->                                 className="text-muted-foreground text-sm pt-4"
->                                 ref={null}
->                               >
-                                  <span>
-                                  <div className="mt-4 round...">
->                                   <p className="text-sm">
-                    ...
-                  ...
-    ...
-
-[01:28:38.291] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <p>
-[01:28:38.291] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
-
-  ...
-    <FocusScope asChild={true} loop={true} trapped={true} onMountAutoFocus={function handleEvent} ...>
-      <Primitive.div tabIndex={-1} asChild={true} ref={function} ...>
-        <Slot tabIndex={-1} onKeyDown={function FocusScope.useCallback[handleKeyDown]} ref={function}>
-          <SlotClone tabIndex={-1} onKeyDown={function FocusScope.useCallback[handleKeyDown]} ref={function}>
-            <DismissableLayer role="alertdialog" id="radix-_r_3_" aria-describedby="radix-_r_5_" ...>
-              <Primitive.div role="alertdialog" id="radix-_r_3_" aria-describedby="radix-_r_5_" ...>
-                <div role="alertdialog" id="radix-_r_3_" aria-describedby="radix-_r_5_" aria-labelledby="radix-_r_4_" ...>
-                  <Slottable>
-                    <AlertDialogHeader>
-                      <div data-slot="alert-dial..." className="flex flex-...">
-                        <div>
-                        <AlertDialogDescription className="pt-4">
-                          <AlertDialogDescription data-slot="alert-dial..." className="text-muted...">
-                            <DialogDescription __scopeDialog={{Dialog:[...]}} data-slot="alert-dial..." ...>
-                              <Primitive.p id="radix-_r_5_" data-slot="alert-dial..." className="text-muted..." ...>
->                               <p
->                                 id="radix-_r_5_"
->                                 data-slot="alert-dialog-description"
->                                 className="text-muted-foreground text-sm pt-4"
->                                 ref={null}
->                               >
-                                  <span>
->                                 <div className="mt-4 rounded-md bg-muted p-3">
-                    ...
-                  ...
-    ...
-
-[01:28:38.291] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <div>
-[01:33:57.148] Server  LOG      ✓ Compiled in 255ms
-[01:36:21.608] Server  LOG      ✓ Compiled in 509ms
-[01:37:18.076] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765154297228}
-[01:37:38.004] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765154317235}
-[01:38:15.637] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765154354866}
-[01:52:28.424] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <ul> p 
-
-  ...
-    <FocusScope asChild={true} loop={true} trapped={true} onMountAutoFocus={function handleEvent} ...>
-      <Primitive.div tabIndex={-1} asChild={true} ref={function} ...>
-        <Slot tabIndex={-1} onKeyDown={function FocusScope.useCallback[handleKeyDown]} ref={function}>
-          <SlotClone tabIndex={-1} onKeyDown={function FocusScope.useCallback[handleKeyDown]} ref={function}>
-            <DismissableLayer role="alertdialog" id="radix-_r_p_" aria-describedby="radix-_r_r_" ...>
-              <Primitive.div role="alertdialog" id="radix-_r_p_" aria-describedby="radix-_r_r_" ...>
-                <div role="alertdialog" id="radix-_r_p_" aria-describedby="radix-_r_r_" aria-labelledby="radix-_r_q_" ...>
-                  <Slottable>
-                    <AlertDialogHeader>
-                      <div data-slot="alert-dial..." className="flex flex-...">
-                        <div>
-                        <AlertDialogDescription className="pt-4">
-                          <AlertDialogDescription data-slot="alert-dial..." className="text-muted...">
-                            <DialogDescription __scopeDialog={{Dialog:[...]}} data-slot="alert-dial..." ...>
-                              <Primitive.p id="radix-_r_r_" data-slot="alert-dial..." className="text-muted..." ...>
->                               <p
->                                 id="radix-_r_r_"
->                                 data-slot="alert-dialog-description"
->                                 className="text-muted-foreground text-sm pt-4"
->                                 ref={null}
->                               >
-                                  <div className="space-y-2">
-                                    <p>
-                                    <div className="mt-4 round...">
-                                      <div className="text-sm sp...">
-                                        <p>
-                                        <p>
-                                        <div className="pt-2">
-                                          <p>
->                                         <ul className="text-xs space-y-1 mt-1">
-                    ...
-                  ...
-    ...
-
-[01:52:28.424] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <ul>
-[01:53:26.543] Server  LOG      ✓ Compiled in 243ms
-[01:54:22.567] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155321790}
-[01:59:12.480] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155611705}
-[01:59:20.742] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155619948}
-[01:59:35.398] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155634620}
-[01:59:42.600] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155641815}
-[01:59:52.715] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155651945}
-[02:00:00.474] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155659705}
-[02:00:41.766] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155700983}
-[02:01:27.971] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155747196}
-[02:01:49.069] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155768283}
-[02:01:55.790] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155775022}
-[02:02:00.327] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155779554}
-[02:02:03.295] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155782527}
-[02:02:18.042] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155797264}
-[02:02:54.667] Server  LOG      ✓ Compiled in 320ms
-[02:04:52.506] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155951715}
-[02:05:17.099] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155976328}
-[02:10:50.960] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765156310191}
+[00:00:04.447] Server  LOG      ✓ Ready in 3.2s
+[00:00:26.484] Server  LOG      ○ Compiling / ...
+[00:00:40.447] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:40.738] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:40.738] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:40.738] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765298286890}
+[00:00:49.796] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765298295905}
+[00:01:08.321] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765298314457}
+[00:01:17.089] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765298323224}
+[00:01:20.608] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765298326770}
+[00:01:27.731] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.737] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.784] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.791] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.797] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.801] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.803] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.806] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.810] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.818] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.820] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.822] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.824] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.825] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.827] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.829] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.831] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.832] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:27.839] Server  ERROR   Error fetching classes: NeonDbError: Error connecting to database: TypeError: fetch failed
+[00:01:28.059] Browser ERROR   Failed to fetch classes: {}
+[00:01:31.159] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.161] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__42efd6da._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.163] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.239] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_483e31e2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.241] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.243] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.244] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.246] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.247] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.248] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.251] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.253] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__42efd6da._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.256] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.258] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_483e31e2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.259] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.261] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.263] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.264] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.265] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.266] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:31.269] Server  ERROR   Error fetching students: NeonDbError: Error connecting to database: TypeError: fetch failed
+[00:01:32.061] Browser ERROR   Failed to fetch students: {}
+[00:02:12.201] Server  LOG      ✓ Compiled in 819ms
+[00:02:32.262] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:32.531] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:32.531] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/students","route":"/students"}
+[00:02:32.531] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765298398690}
+[00:02:59.083] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765298425213}
+[00:03:53.455] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765298479613}
+[00:08:40.996] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765298768700}
+[00:09:06.337] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765298794040}
+[00:09:16.225] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765298803927}
+[00:09:41.545] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765298829245}
+[00:09:45.038] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765298832719}
+[00:17:29.364] Server  LOG      ✓ Compiled in 604ms
+[00:18:20.718] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:21.043] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:21.044] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/attendance","route":"/attendance"}
+[00:18:21.044] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765299348745}
+[00:18:27.540] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:27.772] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:27.772] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/attendance","route":"/attendance"}
+[00:18:27.772] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765299355472}
+[00:19:58.242] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765299445942}
+[00:20:06.715] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765299454423}
+[00:21:12.973] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:21:12.990] Server  LOG      ✓ Compiled in 1221ms
+[00:21:13.104] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:21:14.268] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:15.058] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:21:15.058] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:21:15.058] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765299522311}
+[00:26:06.022] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:26:06.034] Server  LOG      ✓ Compiled in 513ms
+[00:26:06.122] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:26:06.587] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/app-sidebar.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:26:07.103] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:08.050] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:26:08.050] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:26:08.050] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765299815251}
+[00:26:32.428] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:26:32.481] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:26:32.846] Server  LOG      ✓ Compiled in 2.5s
+[00:26:33.266] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:34.053] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:26:34.053] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:26:34.053] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765299841284}
+[00:27:44.544] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:27:44.668] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:27:45.134] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:45.381] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:27:45.381] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/settings","route":"/settings"}
+[00:27:45.381] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/settings color: rgb(120, 120, 120) color: inherit {"dp":"/settings","o":"http://localhost:3000/settings","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765299913085}
+[00:27:52.173] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:27:52.443] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765299920139}
+[00:29:05.091] Server  LOG      ✓ Compiled in 549ms
+[00:29:50.067] Server  LOG      ✓ Compiled in 441ms
+[00:31:28.148] Server  LOG      ✓ Compiled in 486ms
+[00:31:35.935] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:31:36.477] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:36.769] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:31:36.769] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:31:36.769] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765300144474}
+[00:32:22.912] Server  LOG      ✓ Compiled in 304ms
+[00:36:56.272] Server  LOG      ✓ Compiled in 256ms
+[00:37:16.502] Server  LOG      ✓ Compiled in 459ms
+[00:38:36.039] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /attendance. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:38:36.735] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:37.126] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:38:37.126] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/attendance","route":"/attendance"}
+[00:38:37.126] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765300564830}
+[00:38:41.773] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:38:41.990] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765300569688}
+[00:38:46.268] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /ai-summary. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:38:46.870] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:47.156] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:38:47.156] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/ai-summary","route":"/ai-summary"}
+[00:38:47.156] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ai-summary color: rgb(120, 120, 120) color: inherit {"dp":"/ai-summary","o":"http://localhost:3000/ai-summary","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765300574859}
+[00:39:28.256] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:39:28.463] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765300616160}
+[00:46:24.782] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /ai-summary. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:46:24.984] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ai-summary color: rgb(120, 120, 120) color: inherit {"dp":"/ai-summary","o":"http://localhost:3000/ai-summary","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765301032662}
+[00:57:21.258] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:57:21.420] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765301689128}
+[01:05:41.226] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:05:41.508] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:41.719] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:05:41.719] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:05:41.719] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765302189423}
+[01:05:46.975] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /classes. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:05:47.160] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765302194858}
+[01:05:49.214] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:05:49.371] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765302197079}
+[01:08:31.314] Server  LOG      ✓ Compiled in 159ms
+[01:10:05.276] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /attendance. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:10:05.485] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765302453163}
+[01:11:12.143] Server  LOG      ✓ Compiled in 281ms
+[01:11:19.232] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:11:19.395] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765302527105}
+[01:12:20.333] Server  LOG      ✓ Compiled in 177ms
+[01:18:25.718] Server  LOG      ✓ Compiled in 184ms
+[01:18:25.878] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:18:42.531] Server  LOG      ✓ Compiled in 91ms

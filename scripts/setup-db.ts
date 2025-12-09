@@ -21,6 +21,7 @@ async function setupDatabase() {
     `
     console.log('✅ Classes table created')
 
+    
     // Create students table
     await sql`
       CREATE TABLE IF NOT EXISTS students (
@@ -56,5 +57,7 @@ async function setupDatabase() {
     process.exit(1)
   }
 }
+
+
 
 setupDatabase()
