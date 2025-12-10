@@ -1,7 +1,4 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/ai-summary/page": "app/ai-summary/page.js",
-  "/api/attendance/route": "app/api/attendance/route.js",
   "/api/classes/route": "app/api/classes/route.js",
   "/api/students/route": "app/api/students/route.js",
   "/attendance/page": "app/attendance/page.js",
