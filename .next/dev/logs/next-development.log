@@ -568,3 +568,4 @@ Import traces:
 [03:47:27.328] Server  LOG     Search query: "hanaa"
 [03:47:27.329] Server  LOG     Executing search with pattern: "%hanaa%"
 [03:47:27.973] Server  LOG     Search returned 2 "results"
+[03:49:17.229] Server  LOG      ✓ Compiled in 108ms

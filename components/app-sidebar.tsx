@@ -72,7 +72,7 @@ export function AppSidebar() {
               )}
             >
               <item.icon className="h-5 w-5 mb-1" />
-              <span className="text-center truncate px-1">{item.label}</span>
+              {/* <span className="text-center truncate px-1">{item.label}</span> */}
             </Link>
           )
         })}

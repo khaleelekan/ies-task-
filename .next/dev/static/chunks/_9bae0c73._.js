@@ -155,24 +155,14 @@ function AppSidebar() {
                     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: item.href,
                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("flex flex-col items-center justify-center flex-1 py-2 text-xs font-medium transition-colors", isActive ? "text-sidebar-accent-foreground" : "text-sidebar-foreground hover:text-sidebar-accent-foreground"),
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(item.icon, {
-                                className: "h-5 w-5 mb-1"
-                            }, void 0, false, {
-                                fileName: "[project]/components/app-sidebar.tsx",
-                                lineNumber: 74,
-                                columnNumber: 15
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-center truncate px-1",
-                                children: item.label
-                            }, void 0, false, {
-                                fileName: "[project]/components/app-sidebar.tsx",
-                                lineNumber: 75,
-                                columnNumber: 15
-                            }, this)
-                        ]
-                    }, item.href, true, {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(item.icon, {
+                            className: "h-5 w-5 mb-1"
+                        }, void 0, false, {
+                            fileName: "[project]/components/app-sidebar.tsx",
+                            lineNumber: 74,
+                            columnNumber: 15
+                        }, this)
+                    }, item.href, false, {
                         fileName: "[project]/components/app-sidebar.tsx",
                         lineNumber: 64,
                         columnNumber: 13
