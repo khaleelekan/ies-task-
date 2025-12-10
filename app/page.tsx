@@ -234,29 +234,4 @@ export default function DashboardPage() {
         </Card>
       </div>
 
-      {/* Mobile Bottom Navigation - Smaller */}
-      {isMobile && (
-        <div className="fixed bottom-0 left-0 right-0 bg-background border-t p-2 z-10">
-          <div className="grid grid-cols-4 gap-1">
-            <Button variant="ghost" size="sm" className="flex-col h-auto py-1.5">
-              <BookOpen className="h-3 w-3 mb-0.5" />
-              <span className="text-[10px]">Classes</span>
-            </Button>
-            <Button variant="ghost" size="sm" className="flex-col h-auto py-1.5">
-              <Users className="h-3 w-3 mb-0.5" />
-              <span className="text-[10px]">Students</span>
-            </Button>
-            <Button variant="ghost" size="sm" className="flex-col h-auto py-1.5">
-              <ClipboardCheck className="h-3 w-3 mb-0.5" />
-              <span className="text-[10px]">Attendance</span>
-            </Button>
-            <Button variant="ghost" size="sm" className="flex-col h-auto py-1.5">
-              <TrendingUp className="h-3 w-3 mb-0.5" />
-              <span className="text-[10px]">More</span>
-            </Button>
-          </div>
-        </div>
-      )}
-    </div>
-  )
-}
+    </div>)}

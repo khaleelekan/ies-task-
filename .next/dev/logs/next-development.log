@@ -13,3 +13,384 @@
 [00:04:47.117] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765364350255}
 [00:04:50.998] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765364354139}
 [00:04:53.262] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765364356384}
+[00:07:47.209] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765364530349}
+[00:15:08.880] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:10.333] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:15:10.333] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/classes","route":"/classes"}
+[00:15:10.333] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765364972517}
+[00:15:22.731] Server  LOG      ✓ Compiled in 313ms
+[00:17:50.183] Server  LOG      ✓ Compiled in 505ms
+[00:17:51.020] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:52.331] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:17:52.331] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/classes","route":"/classes"}
+[00:17:52.331] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765365135079}
+[00:18:31.947] Server  LOG      ✓ Compiled in 508ms
+[00:18:44.034] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:44.273] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:44.273] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/classes","route":"/classes"}
+[00:18:44.273] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765365187412}
+[00:19:18.589] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765365221691}
+[00:19:22.246] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765365225361}
+[00:19:26.139] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ai-summary color: rgb(120, 120, 120) color: inherit {"dp":"/ai-summary","o":"http://localhost:3000/ai-summary","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765365229243}
+[00:19:28.782] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765365231901}
+[00:19:44.794] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765365247913}
+[00:19:48.178] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765365251291}
+[00:19:58.877] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765365261999}
+[00:20:00.657] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765365263769}
+[00:20:02.094] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765365265218}
+[00:21:46.617] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ai-summary color: rgb(120, 120, 120) color: inherit {"dp":"/ai-summary","o":"http://localhost:3000/ai-summary","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765365369682}
+[00:21:52.500] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765365375555}
+[00:22:07.659] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765365390742}
+[00:22:14.182] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765365397253}
+[00:55:22.280] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:23.342] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:55:23.342] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:55:23.342] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765367386222}
+[00:55:39.997] Server  LOG      ✓ Compiled in 261ms
+[00:55:40.570] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:41.344] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:55:41.344] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:55:41.344] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765367404243}
+[00:56:06.474] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:07.333] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:56:07.333] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:56:07.333] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765367430123}
+[00:59:55.109] Server  LOG      ✓ Compiled in 163ms
+[00:59:55.341] Browser ERROR   ./app/page.tsx:237:5
+Parsing ecmascript source code failed
+  235 |       </div>
+  236 |
+> 237 |     
+      |     ^
+
+Expected '</', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:00:21.167] Server  LOG      ✓ Compiled in 107ms
+[01:00:21.346] Browser ERROR   ./app/page.tsx:237:11
+Parsing ecmascript source code failed
+  235 |       </div>
+  236 |
+> 237 |     </div>
+      |           ^
+
+Expected ',', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:00:56.212] Server  LOG      ✓ Compiled in 317ms
+[01:00:56.341] Browser ERROR   ./app/page.tsx:237:11
+Parsing ecmascript source code failed
+  235 |       </div>
+  236 |
+> 237 |     </div>
+      |           ^
+
+Expected ',', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:00:58.340] Browser ERROR   ./app/page.tsx:237:11
+Parsing ecmascript source code failed
+  235 |       </div>
+  236 |
+> 237 |     </div>
+      |           ^
+
+Expected ',', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:04:16.770] Server  LOG      ✓ Compiled in 174ms
+[01:04:33.282] Server  LOG      ✓ Compiled in 83ms
+[01:05:19.881] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:20.243] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:05:20.243] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:05:20.243] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765367983384}
+[02:42:29.788] Server  LOG      ✓ Compiled in 469ms
+[02:42:51.025] Server  LOG      ✓ Compiled in 322ms
+[02:43:16.110] Server  LOG      ✓ Compiled in 462ms
+[02:43:57.258] Browser LOG     Searching for: classs
+[02:44:52.421] Browser LOG     Searching for: hshjhdjhbvj
+[02:45:13.998] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.007] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.068] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.082] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.091] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.098] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.101] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.107] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.113] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.125] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.126] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.131] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.133] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.134] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.136] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.138] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.139] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.141] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.152] Server  ERROR   Error fetching classes: NeonDbError: Error connecting to database: TypeError: fetch failed
+[02:45:14.167] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765373977117}
+[02:45:14.192] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.198] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.203] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.204] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.206] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.207] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.209] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.214] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.217] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.221] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.222] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.227] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.230] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.233] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.234] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.235] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.237] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.239] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:14.250] Server  ERROR   Error fetching classes: NeonDbError: Error connecting to database: TypeError: fetch failed
+[02:45:14.360] Browser ERROR   Failed to fetch classes: {}
+[02:45:14.538] Browser ERROR   Failed to fetch classes: {}
+[02:45:26.232] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.234] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__42efd6da._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.236] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.304] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_483e31e2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.305] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.307] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.308] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.310] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.312] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.313] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.316] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.318] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__42efd6da._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.320] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.321] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_483e31e2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.323] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.325] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.328] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.330] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.332] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.334] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.339] Server  ERROR   Error fetching students: NeonDbError: Error connecting to database: TypeError: fetch failed
+[02:45:26.422] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.425] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.433] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.435] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.439] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.484] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.486] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.488] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.490] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.499] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.501] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.547] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.549] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.551] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.553] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.555] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.556] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.558] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.567] Server  ERROR   Error fetching classes: NeonDbError: Error connecting to database: TypeError: fetch failed
+[02:45:26.604] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.605] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__42efd6da._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.607] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.608] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_483e31e2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.610] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.612] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.614] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.615] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.616] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.618] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.620] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.621] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__42efd6da._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.624] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.627] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_483e31e2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.630] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.631] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.633] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.634] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.639] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.642] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.652] Server  ERROR   Error fetching students: NeonDbError: Error connecting to database: TypeError: fetch failed
+[02:45:26.680] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.681] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.683] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.684] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.685] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.687] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.689] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.691] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.696] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.700] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.701] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.703] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.707] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.711] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.714] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.715] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.717] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.719] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:26.725] Server  ERROR   Error fetching classes: NeonDbError: Error connecting to database: TypeError: fetch failed
+[02:45:26.980] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765373989451}
+[02:45:26.980] Browser ERROR   Failed to fetch students: {}
+[02:45:26.980] Browser ERROR   Failed to fetch classes: {}
+[02:45:26.981] Browser ERROR   Failed to fetch students: {}
+[02:45:26.981] Browser ERROR   Failed to fetch classes: {}
+[02:45:31.861] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.862] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.864] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.865] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.866] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.868] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.869] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.871] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.873] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.879] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.882] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.886] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.888] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.889] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.891] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.895] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.897] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.898] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.902] Server  ERROR   Error fetching classes: NeonDbError: Error connecting to database: TypeError: fetch failed
+[02:45:31.930] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.931] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.933] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.934] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.935] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.937] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.938] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.939] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.941] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.947] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.949] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.951] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.952] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.954] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.956] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.957] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.962] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.965] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:31.968] Server  ERROR   Error fetching classes: NeonDbError: Error connecting to database: TypeError: fetch failed
+[02:45:32.207] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765373995085}
+[02:45:32.207] Browser ERROR   Failed to fetch classes: {}
+[02:45:32.207] Browser ERROR   Failed to fetch classes: {}
+[02:45:34.879] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.881] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__42efd6da._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.887] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.889] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_483e31e2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.891] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.894] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.896] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.898] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.900] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.902] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.908] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.910] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__42efd6da._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.920] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.922] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_483e31e2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.924] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.927] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.929] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.931] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.932] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.934] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.940] Server  ERROR   Error fetching students: NeonDbError: Error connecting to database: TypeError: fetch failed
+[02:45:34.970] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.971] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.973] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.975] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.977] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.978] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.980] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.982] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.983] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.986] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.987] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.990] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.992] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.993] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.995] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.997] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.998] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:34.999] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.003] Server  ERROR   Error fetching classes: NeonDbError: Error connecting to database: TypeError: fetch failed
+[02:45:35.031] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.032] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__42efd6da._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.034] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.036] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_483e31e2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.039] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.044] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.046] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.048] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.050] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.052] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.056] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.061] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__42efd6da._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.066] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.067] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_483e31e2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.069] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.070] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.072] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.078] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.083] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.084] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.095] Server  ERROR   Error fetching students: NeonDbError: Error connecting to database: TypeError: fetch failed
+[02:45:35.118] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.120] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.122] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.123] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.128] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.131] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.132] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.133] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.134] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.137] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\node_modules_2f6f358b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.139] Server  ERROR   C:\Users\USER\Desktop\ies-task-\.next\dev\server\chunks\[root-of-the-server]__28087b54._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.142] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.145] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.147] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.148] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.150] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.151] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.153] Server  ERROR   C:\Users\USER\Desktop\ies-task-\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:45:35.157] Server  ERROR   Error fetching classes: NeonDbError: Error connecting to database: TypeError: fetch failed
+[02:45:35.329] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765373998106}
+[02:45:35.329] Browser ERROR   Failed to fetch students: {}
+[02:45:35.329] Browser ERROR   Failed to fetch classes: {}
+[02:45:35.330] Browser ERROR   Failed to fetch students: {}
+[02:45:35.330] Browser ERROR   Failed to fetch classes: {}
+[02:49:40.212] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765374243253}
+[02:50:12.089] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/students color: rgb(120, 120, 120) color: inherit {"dp":"/students","o":"http://localhost:3000/students","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765374275096}
+[02:50:20.463] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/classes color: rgb(120, 120, 120) color: inherit {"dp":"/classes","o":"http://localhost:3000/classes","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765374283446}
+[02:50:26.282] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/attendance color: rgb(120, 120, 120) color: inherit {"dp":"/attendance","o":"http://localhost:3000/attendance","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765374289324}
+[02:52:25.587] Server  LOG      ✓ Compiled in 228ms

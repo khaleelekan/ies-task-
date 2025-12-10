@@ -1,258 +1,238 @@
 "use client"
 
-import { User, Menu, Search, Bell, ChevronDown } from "lucide-react"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Button } from "@/components/ui/button"
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { Input } from "@/components/ui/input"
-import { Badge } from "@/components/ui/badge"
+import { Bell, Search, User, Menu, X } from "lucide-react"
 import { useState, useEffect } from "react"
+import { usePathname } from "next/navigation"
+import { cn } from "@/lib/utils"
+
+const pageTitles: Record<string, string> = {
+  "/": "Dashboard",
+  "/classes": "Classes",
+  "/students": "Students",
+  "/attendance": "Attendance",
+  "/ai-summary": "AI Summary",
+  "/teams-integration": "Teams Integration",
+}
 
 export function AppHeader() {
-  const [isMobile, setIsMobile] = useState(false)
-  const [isTablet, setIsTablet] = useState(false)
+  const [searchQuery, setSearchQuery] = useState("")
   const [isSearchOpen, setIsSearchOpen] = useState(false)
-  const [sidebarOpen, setSidebarOpen] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const pathname = usePathname()
+  const currentTitle = pageTitles[pathname] || "Dashboard"
 
-  useEffect(() => {
-    const checkScreenSize = () => {
-      setIsMobile(window.innerWidth < 768)
-      setIsTablet(window.innerWidth >= 768 && window.innerWidth < 1024)
+  // Handle search submission
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault()
+    if (searchQuery.trim()) {
+      console.log("Searching for:", searchQuery)
+      // Implement your search logic here
+      alert(`Searching for: ${searchQuery}`)
+      setIsSearchOpen(false)
     }
-    
-    checkScreenSize()
-    window.addEventListener('resize', checkScreenSize)
-    return () => window.removeEventListener('resize', checkScreenSize)
-  }, [])
-
-  // Toggle sidebar on mobile
-  const toggleSidebar = () => {
-    setSidebarOpen(!sidebarOpen)
-    // Dispatch event for sidebar to listen to
-    const event = new CustomEvent('toggle-sidebar', { detail: !sidebarOpen })
-    window.dispatchEvent(event)
   }
 
-  return (
-    <header className="fixed left-0 lg:left-64 right-0 top-0 z-30 h-16 border-b border-border bg-card/95 backdrop-blur supports-[backdrop-filter]:bg-card/60">
-      <div className="flex h-full items-center justify-between px-4 sm:px-6 lg:px-8">
-        {/* Left Section */}
-        <div className="flex items-center gap-4 flex-1">
-          {/* Mobile Menu Toggle */}
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={toggleSidebar}
-            className="lg:hidden h-8 w-8"
-            aria-label="Toggle menu"
+  // Close mobile menu when path changes
+  useEffect(() => {
+    setIsMobileMenuOpen(false)
+    setIsSearchOpen(false)
+  }, [pathname])
+
+  // Handle escape key to close search/menu
+  useEffect(() => {
+    const handleEscapeKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setIsSearchOpen(false)
+        setIsMobileMenuOpen(false)
+      }
+    }
+
+    window.addEventListener('keydown', handleEscapeKey)
+    return () => window.removeEventListener('keydown', handleEscapeKey)
+  }, [])
+
+  // Mobile menu content
+  const MobileMenu = () => (
+    <div className="fixed inset-0 z-50 md:hidden">
+      {/* Backdrop */}
+      <div 
+        className="absolute inset-0 bg-black/50 backdrop-blur-sm"
+        onClick={() => setIsMobileMenuOpen(false)}
+      />
+      
+      {/* Menu panel */}
+      <div className="absolute left-0 top-0 bottom-0 w-64 bg-sidebar border-r border-sidebar-border animate-in slide-in-from-left-80">
+        {/* Menu header */}
+        <div className="flex items-center justify-between h-16 border-b border-sidebar-border px-6">
+          <div className="flex items-center gap-3">
+            <img 
+              className="h-8 w-8" 
+              src="/ies.jpg" 
+              alt="Site logo" 
+            />
+            <span className="text-lg font-semibold text-sidebar-foreground">i-eSchool</span>
+          </div>
+          <button
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="p-2 rounded-md hover:bg-sidebar-accent"
           >
-            <Menu className="h-4 w-4" />
-          </Button>
-
-          {/* Logo/Title - Different on mobile */}
-          {isMobile ? (
-            <div className="flex items-center gap-2">
-              <Avatar className="h-8 w-8">
-                <AvatarFallback className="bg-primary text-primary-foreground">
-                  <User className="h-4 w-4" />
-                </AvatarFallback>
-              </Avatar>
-              <div>
-                <h1 className="text-sm font-semibold text-foreground">i-eSchool</h1>
-                <p className="text-xs text-muted-foreground">Admin</p>
-              </div>
-            </div>
-          ) : (
-            <h1 className="text-lg lg:text-xl font-semibold text-foreground truncate">
-              i-eSchool Admin Panel
-            </h1>
-          )}
-
-          {/* Search Bar - Desktop/Tablet */}
-          {!isMobile && (
-            <div className="hidden md:flex ml-4 lg:ml-8">
-              <div className="relative w-64">
-                <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
-                <Input
-                  placeholder="Search students, classes..."
-                  className="pl-9 w-full bg-background"
-                />
-              </div>
-            </div>
-          )}
-
-          {/* Mobile Search Toggle */}
-          {isMobile && !isSearchOpen && (
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={() => setIsSearchOpen(true)}
-              className="ml-auto h-8 w-8"
-              aria-label="Search"
-            >
-              <Search className="h-4 w-4" />
-            </Button>
-          )}
-
-          {/* Mobile Search Input */}
-          {isMobile && isSearchOpen && (
-            <div className="absolute left-0 right-0 top-0 h-16 bg-card px-4 flex items-center">
-              <div className="relative flex-1">
-                <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
-                <Input
-                  placeholder="Search..."
-                  className="pl-9 w-full bg-background"
-                  autoFocus
-                  onBlur={() => setIsSearchOpen(false)}
-                />
-              </div>
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={() => setIsSearchOpen(false)}
-                className="ml-2"
-              >
-                Cancel
-              </Button>
-            </div>
-          )}
+            <X className="h-5 w-5" />
+          </button>
         </div>
 
-        {/* Right Section - Desktop/Tablet */}
-        {!isSearchOpen && (
-          <div className="flex items-center gap-3 lg:gap-4">
-            {/* Notifications - Hidden on mobile when search is open */}
-            {!isSearchOpen && (
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button variant="ghost" size="icon" className="relative h-8 w-8 sm:h-9 sm:w-9">
-                    <Bell className="h-4 w-4 sm:h-5 sm:w-5" />
-                    <Badge className="absolute -top-1 -right-1 h-5 w-5 p-0 flex items-center justify-center text-xs">
-                      3
-                    </Badge>
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="w-80">
-                  <DropdownMenuLabel>Notifications (3)</DropdownMenuLabel>
-                  <DropdownMenuSeparator />
-                  <div className="max-h-96 overflow-auto">
-                    <DropdownMenuItem className="cursor-pointer py-3">
-                      <div className="space-y-1">
-                        <p className="text-sm font-medium">New student enrolled</p>
-                        <p className="text-xs text-muted-foreground">John Doe joined Mathematics 101</p>
-                        <p className="text-xs text-muted-foreground">2 minutes ago</p>
-                      </div>
-                    </DropdownMenuItem>
-                    <DropdownMenuItem className="cursor-pointer py-3">
-                      <div className="space-y-1">
-                        <p className="text-sm font-medium">Attendance reminder</p>
-                        <p className="text-xs text-muted-foreground">Mark attendance for Science class</p>
-                        <p className="text-xs text-muted-foreground">1 hour ago</p>
-                      </div>
-                    </DropdownMenuItem>
-                    <DropdownMenuItem className="cursor-pointer py-3">
-                      <div className="space-y-1">
-                        <p className="text-sm font-medium">System update</p>
-                        <p className="text-xs text-muted-foreground">New features available</p>
-                        <p className="text-xs text-muted-foreground">Yesterday</p>
-                      </div>
-                    </DropdownMenuItem>
-                  </div>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem className="cursor-pointer text-center justify-center">
-                    View all notifications
-                  </DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
-            )}
+        {/* Mobile search in menu */}
+        <div className="p-4 border-b border-sidebar-border">
+          <form onSubmit={handleSearch} className="relative">
+            <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+            <input
+              type="search"
+              placeholder="Search..."
+              className="w-full rounded-lg border border-input bg-background py-2 pl-10 pr-4 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              autoFocus
+            />
+          </form>
+        </div>
 
-            {/* User Profile - Desktop/Tablet */}
-            {!isMobile && (
-              <div className="flex items-center gap-2">
-                <div className="hidden sm:block text-right">
-                  <p className="text-sm font-medium text-foreground">Admin User</p>
-                  <p className="text-xs text-muted-foreground">admin@ieschool.com</p>
-                </div>
-                <DropdownMenu>
-                  <DropdownMenuTrigger asChild>
-                    <Button variant="ghost" className="gap-2 p-0 hover:bg-transparent">
-                      <Avatar className="h-8 w-8 sm:h-9 sm:w-9">
-                        <AvatarFallback className="bg-primary text-primary-foreground">
-                          <User className="h-4 w-4" />
-                        </AvatarFallback>
-                      </Avatar>
-                      <ChevronDown className="h-4 w-4 text-muted-foreground" />
-                    </Button>
-                  </DropdownMenuTrigger>
-                  <DropdownMenuContent align="end" className="w-56">
-                    <DropdownMenuLabel>My Account</DropdownMenuLabel>
-                    <DropdownMenuSeparator />
-                    <DropdownMenuItem className="cursor-pointer">
-                      <User className="mr-2 h-4 w-4" />
-                      Profile
-                    </DropdownMenuItem>
-                    <DropdownMenuItem className="cursor-pointer">
-                      Settings
-                    </DropdownMenuItem>
-                    <DropdownMenuItem className="cursor-pointer">
-                      Help & Support
-                    </DropdownMenuItem>
-                    <DropdownMenuSeparator />
-                    <DropdownMenuItem className="cursor-pointer text-destructive">
-                      Logout
-                    </DropdownMenuItem>
-                  </DropdownMenuContent>
-                </DropdownMenu>
-              </div>
-            )}
-
-            {/* Mobile User Profile */}
-            {isMobile && !isSearchOpen && (
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Avatar className="h-8 w-8 cursor-pointer">
-                    <AvatarFallback className="bg-primary text-primary-foreground">
-                      <User className="h-4 w-4" />
-                    </AvatarFallback>
-                  </Avatar>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="w-48">
-                  <DropdownMenuLabel>Admin User</DropdownMenuLabel>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem className="cursor-pointer">
-                    Profile
-                  </DropdownMenuItem>
-                  <DropdownMenuItem className="cursor-pointer">
-                    Settings
-                  </DropdownMenuItem>
-                  <DropdownMenuItem className="cursor-pointer">
-                    Help
-                  </DropdownMenuItem>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem className="cursor-pointer text-destructive">
-                    Logout
-                  </DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
-            )}
+        {/* User info in menu */}
+        <div className="p-4 border-b border-sidebar-border">
+          <div className="flex items-center gap-3">
+            <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center">
+              <User className="h-5 w-5 text-primary" />
+            </div>
+            <div>
+              <p className="text-sm font-medium">John Doe</p>
+              <p className="text-xs text-muted-foreground">Admin</p>
+            </div>
           </div>
-        )}
+        </div>
+      </div>
+    </div>
+  )
+
+  // Full-screen mobile search
+  const MobileSearch = () => (
+    <div className="fixed inset-0 z-50 md:hidden bg-sidebar">
+      {/* Search header */}
+      <div className="flex items-center h-16 border-b border-sidebar-border px-4">
+        <form onSubmit={handleSearch} className="flex-1 flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => setIsSearchOpen(false)}
+            className="p-2 rounded-md hover:bg-sidebar-accent"
+          >
+            <X className="h-5 w-5" />
+          </button>
+          <div className="relative flex-1">
+            <input
+              type="search"
+              placeholder="Search..."
+              className="w-full rounded-lg border border-input bg-background py-2 pl-4 pr-10 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              autoFocus
+            />
+            <button
+              type="submit"
+              className="absolute right-3 top-1/2 -translate-y-1/2 p-1"
+            >
+              <Search className="h-4 w-4 text-muted-foreground" />
+            </button>
+          </div>
+        </form>
       </div>
 
-      {/* Mobile Search Overlay */}
-      {isMobile && isSearchOpen && (
-        <div 
-          className="fixed inset-0 bg-background/80 backdrop-blur-sm z-40 lg:hidden"
-          onClick={() => setIsSearchOpen(false)}
-        />
-      )}
-    </header>
+      {/* Search suggestions */}
+      <div className="p-4">
+        <p className="text-sm text-muted-foreground mb-2">Recent searches</p>
+        <div className="space-y-2">
+          {["Mathematics", "Student attendance", "Class schedule", "AI Summary"].map((term, index) => (
+            <button
+              key={index}
+              onClick={() => {
+                setSearchQuery(term)
+                handleSearch(new Event('submit') as any)
+              }}
+              className="w-full text-left p-2 rounded-md hover:bg-sidebar-accent text-sm"
+            >
+              {term}
+            </button>
+          ))}
+        </div>
+      </div>
+    </div>
+  )
+
+  return (
+    <>
+      <header className="fixed top-0 left-0 right-0 z-40 flex h-16 items-center gap-4 border-b border-sidebar-border bg-sidebar backdrop-blur supports-[backdrop-filter]:bg-sidebar/80 px-4 md:left-64 md:px-6">
+        {/* Mobile Menu Button */}
+        <button
+          onClick={() => setIsMobileMenuOpen(true)}
+          className="md:hidden p-2 rounded-md hover:bg-sidebar-accent"
+          aria-label="Open menu"
+        >
+          <Menu className="h-5 w-5" />
+        </button>
+
+        {/* Page Title */}
+        <div className="flex flex-1 items-center gap-2">
+          <h1 className="text-lg md:text-xl font-semibold text-sidebar-foreground truncate">
+            {currentTitle}
+          </h1>
+        </div>
+
+        {/* Desktop Search Bar */}
+        <div className="hidden md:flex flex-1 max-w-md">
+          <form onSubmit={handleSearch} className="relative w-full">
+            <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+            <input
+              type="search"
+              placeholder="Search classes, students, attendance..."
+              className="w-full rounded-lg border border-input bg-background py-2 pl-10 pr-4 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+          </form>
+        </div>
+
+        {/* Right-side actions */}
+        <div className="flex items-center gap-2">
+          {/* Mobile Search Button */}
+          <button
+            onClick={() => setIsSearchOpen(true)}
+            className="md:hidden p-2 rounded-md hover:bg-sidebar-accent"
+            aria-label="Search"
+          >
+            <Search className="h-5 w-5" />
+          </button>
+
+          {/* Notification Bell */}
+          <button className="relative p-2 rounded-md hover:bg-sidebar-accent" aria-label="Notifications">
+            <Bell className="h-5 w-5" />
+            <span className="absolute -right-1 -top-1 flex h-2 w-2">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75"></span>
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-red-500"></span>
+            </span>
+          </button>
+
+          {/* User Profile - Desktop */}
+          <div className="hidden md:flex items-center gap-2 pl-2 border-l border-sidebar-border">
+            <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center">
+              <User className="h-4 w-4 text-primary" />
+            </div>
+            <div>
+              <p className="text-sm font-medium">John Doe</p>
+              <p className="text-xs text-muted-foreground">Admin</p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      {/* Render modals */}
+      {isMobileMenuOpen && <MobileMenu />}
+      {isSearchOpen && <MobileSearch />}
+    </>
   )
 }

@@ -1,4 +1,5 @@
 {
+  "/ai-summary/page": "app/ai-summary/page.js",
   "/api/classes/route": "app/api/classes/route.js",
   "/api/students/route": "app/api/students/route.js",
   "/attendance/page": "app/attendance/page.js",
