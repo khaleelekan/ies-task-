@@ -24,16 +24,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geist.className} antialiased`}>
-        <div className="min-h-screen flex flex-col md:flex-row">
-          {/* Sidebar - Lower z-index than header */}
+        <div className="min-h-screen">
+          {/* Sidebar renders both desktop and mobile versions */}
           <AppSidebar />
           
           {/* Main content area */}
-          <div className="flex-1 md:pl-64">
-            {/* Header - Higher z-index */}
+          <div className="md:pl-64">
+            {/* Header */}
             <AppHeader />
             
-            {/* Main content */}
+            {/* Main content with proper spacing for mobile bottom nav */}
             <main className="pt-16 pb-16 md:pb-0 px-4 md:px-8 min-h-screen">
               <div className="max-w-7xl mx-auto">
                 {children}
