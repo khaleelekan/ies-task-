@@ -509,16 +509,16 @@ export default function StudentsPage() {
         </Tabs>
       )}
 
-      {/* Add Student Modal */}
+      {/* Add Student Modal - UPDATED WITH PROPER PADDING */}
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
         <DialogContent className="max-w-[95vw] sm:max-w-md md:max-w-lg rounded-lg">
-          <DialogHeader>
+          <DialogHeader className="px-6 pt-6">
             <DialogTitle className="text-lg sm:text-xl">Add New Student</DialogTitle>
             <DialogDescription className="text-sm sm:text-base">
               Enroll a new student in a class
             </DialogDescription>
           </DialogHeader>
-          <div className="space-y-3 sm:space-y-4 py-2 sm:py-4">
+          <div className="space-y-4 px-6 py-2">
             <div className="space-y-2">
               <Label htmlFor="student-name" className="text-sm sm:text-base">Student Name *</Label>
               <Input
@@ -577,7 +577,7 @@ export default function StudentsPage() {
               </Select>
             </div>
           </div>
-          <DialogFooter className="flex-col sm:flex-row gap-2 sm:gap-0">
+          <DialogFooter className="px-6 pb-6 flex-col sm:flex-row gap-2 sm:gap-0">
             <Button
               variant="outline"
               onClick={() => setIsDialogOpen(false)}
@@ -596,16 +596,16 @@ export default function StudentsPage() {
         </DialogContent>
       </Dialog>
 
-      {/* Edit Student Modal */}
+      {/* Edit Student Modal - UPDATED WITH PROPER PADDING */}
       <Dialog open={isEditDialogOpen} onOpenChange={setIsEditDialogOpen}>
         <DialogContent className="max-w-[95vw] sm:max-w-md md:max-w-lg rounded-lg">
-          <DialogHeader>
+          <DialogHeader className="px-6 pt-6">
             <DialogTitle className="text-lg sm:text-xl">Edit Student</DialogTitle>
             <DialogDescription className="text-sm sm:text-base">
               Update student information
             </DialogDescription>
           </DialogHeader>
-          <div className="space-y-3 sm:space-y-4 py-2 sm:py-4">
+          <div className="space-y-4 px-6 py-2">
             <div className="space-y-2">
               <Label htmlFor="edit-student-name" className="text-sm sm:text-base">Student Name *</Label>
               <Input
@@ -664,7 +664,7 @@ export default function StudentsPage() {
               </Select>
             </div>
           </div>
-          <DialogFooter className="flex-col sm:flex-row gap-2 sm:gap-0">
+          <DialogFooter className="px-6 pb-6 flex-col sm:flex-row gap-2 sm:gap-0">
             <Button
               variant="outline"
               onClick={() => setIsEditDialogOpen(false)}
@@ -684,16 +684,16 @@ export default function StudentsPage() {
         </DialogContent>
       </Dialog>
 
-      {/* Delete Confirmation Modal */}
+      {/* Delete Confirmation Modal - UPDATED WITH PROPER PADDING */}
       <AlertDialog open={isDeleteDialogOpen} onOpenChange={setIsDeleteDialogOpen}>
         <AlertDialogContent className="max-w-[95vw] sm:max-w-md rounded-lg">
-          <AlertDialogHeader>
+          <AlertDialogHeader className="px-6 pt-6">
             <div className="flex items-center gap-2">
               <AlertTriangle className="h-5 w-5 text-destructive" />
               <AlertDialogTitle className="text-lg sm:text-xl">Delete Student</AlertDialogTitle>
             </div>
           </AlertDialogHeader>
-          <AlertDialogDescription className="pt-3 sm:pt-4 text-sm sm:text-base">
+          <AlertDialogDescription className="px-6 pt-3 sm:pt-4 text-sm sm:text-base">
             <div className="space-y-2">
               <div className="text-base">
                 Are you sure you want to delete{" "}
@@ -719,7 +719,7 @@ export default function StudentsPage() {
               </div>
             </div>
           </AlertDialogDescription>
-          <AlertDialogFooter className="flex-col sm:flex-row gap-2 sm:gap-0">
+          <AlertDialogFooter className="px-6 pb-6 flex-col sm:flex-row gap-2 sm:gap-0">
             <AlertDialogCancel 
               onClick={() => setStudentToDelete(null)}
               className="w-full sm:w-auto order-2 sm:order-1 mt-0"

@@ -380,16 +380,16 @@ export default function ClassesPage() {
         </div>
       </div>
 
-      {/* Add Class Modal */}
+      {/* Add Class Modal - UPDATED WITH PROPER PADDING */}
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
         <DialogContent className="max-w-[95vw] sm:max-w-md md:max-w-lg rounded-lg">
-          <DialogHeader>
+          <DialogHeader className="px-6 pt-6">
             <DialogTitle className="text-lg sm:text-xl">Add New Class</DialogTitle>
             <DialogDescription className="text-sm sm:text-base">
               Create a new class with teacher and description
             </DialogDescription>
           </DialogHeader>
-          <div className="space-y-3 sm:space-y-4 py-2 sm:py-4">
+          <div className="space-y-4 px-6 py-2">
             <div className="space-y-2">
               <Label htmlFor="name" className="text-sm sm:text-base">Class Name *</Label>
               <Input
@@ -423,7 +423,7 @@ export default function ClassesPage() {
               />
             </div>
           </div>
-          <DialogFooter className="flex-col sm:flex-row gap-2 sm:gap-0">
+          <DialogFooter className="px-6 pb-6 flex-col sm:flex-row gap-2 sm:gap-0">
             <Button
               variant="outline"
               onClick={() => setIsDialogOpen(false)}

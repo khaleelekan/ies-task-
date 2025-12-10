@@ -44,6 +44,7 @@ module.exports = mod;
 "[project]/app/api/search/route.ts [app-route] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// app/api/search/route.ts - UPDATED VERSION
 __turbopack_context__.s([
     "GET",
     ()=>GET
@@ -52,18 +53,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$serv
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$neondatabase$2f$serverless$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@neondatabase/serverless/index.mjs [app-route] (ecmascript)");
 ;
 ;
-// Initialize Neon database connection
 const sql = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$neondatabase$2f$serverless$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__["neon"])(process.env.DATABASE_URL);
 async function GET(request) {
     try {
-        console.log('Search API called');
         const { searchParams } = new URL(request.url);
         const query = searchParams.get('q')?.trim();
         const limit = parseInt(searchParams.get('limit') || '10');
-        console.log('Search query:', query);
-        // Validate search query
         if (!query || query.length < 2) {
-            console.log('Query too short');
             return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
                 error: 'Search query must be at least 2 characters long',
                 results: []
@@ -71,27 +67,16 @@ async function GET(request) {
                 status: 400
             });
         }
-        // Check if database connection is available
-        if (!process.env.DATABASE_URL) {
-            console.error('DATABASE_URL is not set');
-            return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
-                error: 'Database connection not configured',
-                message: 'DATABASE_URL environment variable is missing'
-            }, {
-                status: 500
-            });
-        }
         const searchPattern = `%${query}%`;
-        console.log('Executing search with pattern:', searchPattern);
-        // Execute the search query - UPDATED TO MATCH YOUR SCHEMA
+        // Search across all tables
         const results = await sql`
-      -- Search students (using your actual schema)
+      -- Search students
       SELECT 
         id,
         'student' as type,
         name as title,
-        email as subtitle,
-        class_name as description,
+        COALESCE(email, 'No email') as subtitle,
+        COALESCE(class_name, 'No class assigned') as description,
         created_at
       FROM students 
       WHERE name ILIKE ${searchPattern}
@@ -100,13 +85,13 @@ async function GET(request) {
       
       UNION ALL
       
-      -- Search classes (using your actual schema)
+      -- Search classes
       SELECT 
         id,
         'class' as type,
         name as title,
         teacher as subtitle,
-        description,
+        COALESCE(description, 'No description') as description,
         created_at
       FROM classes 
       WHERE name ILIKE ${searchPattern}
@@ -115,13 +100,13 @@ async function GET(request) {
       
       UNION ALL
       
-      -- Search attendance (using your actual schema)
+      -- Search attendance
       SELECT 
         id,
         'attendance' as type,
-        student_name || ' - ' || class_name as title,
+        COALESCE(student_name, 'Unknown') as title,
         TO_CHAR(date, 'Mon DD, YYYY') as subtitle,
-        'Status: ' || status as description,
+        'Status: ' || COALESCE(status, 'Unknown') as description,
         created_at
       FROM attendance 
       WHERE student_name ILIKE ${searchPattern}
@@ -130,23 +115,26 @@ async function GET(request) {
       ORDER BY created_at DESC
       LIMIT ${limit}
     `;
-        console.log('Search returned', results.length, 'results');
-        // Format results for the frontend
+        // Format results with correct URLs to your existing pages
         const formattedResults = results.map((result)=>{
             let icon = '🔍';
             let href = '';
+            let label = '';
             switch(result.type){
                 case 'student':
                     icon = '👤';
-                    href = `/students/${result.id}`;
+                    href = '/students'; // Your students page
+                    label = 'Go to Students';
                     break;
                 case 'class':
                     icon = '📚';
-                    href = `/classes/${result.id}`;
+                    href = '/classes'; // Your classes page
+                    label = 'Go to Classes';
                     break;
                 case 'attendance':
                     icon = '✅';
-                    href = `/attendance`;
+                    href = '/attendance'; // Your attendance page if exists, otherwise remove this
+                    label = 'Go to Attendance';
                     break;
             }
             return {
@@ -157,6 +145,7 @@ async function GET(request) {
                 description: result.description || '',
                 icon,
                 href,
+                label,
                 createdAt: result.created_at
             };
         });
@@ -166,17 +155,11 @@ async function GET(request) {
             results: formattedResults
         });
     } catch (error) {
-        console.error('Search API error details:', error);
-        // Log specific error information
-        if (error instanceof Error) {
-            console.error('Error name:', error.name);
-            console.error('Error message:', error.message);
-            console.error('Error stack:', error.stack);
-        }
+        console.error('Search API error:', error);
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
             error: 'Failed to perform search',
             message: error instanceof Error ? error.message : 'Unknown error',
-            details: ("TURBOPACK compile-time truthy", 1) ? String(error) : "TURBOPACK unreachable"
+            results: []
         }, {
             status: 500
         });

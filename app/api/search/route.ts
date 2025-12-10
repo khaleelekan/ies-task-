@@ -1,56 +1,33 @@
+// app/api/search/route.ts - UPDATED VERSION
 import { NextRequest, NextResponse } from 'next/server'
 import { neon } from '@neondatabase/serverless'
 
-// Initialize Neon database connection
 const sql = neon(process.env.DATABASE_URL!)
 
 export async function GET(request: NextRequest) {
   try {
-    console.log('Search API called')
-    
     const { searchParams } = new URL(request.url)
     const query = searchParams.get('q')?.trim()
     const limit = parseInt(searchParams.get('limit') || '10')
 
-    console.log('Search query:', query)
-
-    // Validate search query
     if (!query || query.length < 2) {
-      console.log('Query too short')
-      return NextResponse.json(
-        { 
-          error: 'Search query must be at least 2 characters long',
-          results: []
-        },
-        { status: 400 }
-      )
-    }
-
-    // Check if database connection is available
-    if (!process.env.DATABASE_URL) {
-      console.error('DATABASE_URL is not set')
-      return NextResponse.json(
-        { 
-          error: 'Database connection not configured',
-          message: 'DATABASE_URL environment variable is missing'
-        },
-        { status: 500 }
-      )
+      return NextResponse.json({
+        error: 'Search query must be at least 2 characters long',
+        results: []
+      }, { status: 400 })
     }
 
     const searchPattern = `%${query}%`
     
-    console.log('Executing search with pattern:', searchPattern)
-
-    // Execute the search query - UPDATED TO MATCH YOUR SCHEMA
+    // Search across all tables
     const results = await sql`
-      -- Search students (using your actual schema)
+      -- Search students
       SELECT 
         id,
         'student' as type,
         name as title,
-        email as subtitle,
-        class_name as description,
+        COALESCE(email, 'No email') as subtitle,
+        COALESCE(class_name, 'No class assigned') as description,
         created_at
       FROM students 
       WHERE name ILIKE ${searchPattern}
@@ -59,13 +36,13 @@ export async function GET(request: NextRequest) {
       
       UNION ALL
       
-      -- Search classes (using your actual schema)
+      -- Search classes
       SELECT 
         id,
         'class' as type,
         name as title,
         teacher as subtitle,
-        description,
+        COALESCE(description, 'No description') as description,
         created_at
       FROM classes 
       WHERE name ILIKE ${searchPattern}
@@ -74,13 +51,13 @@ export async function GET(request: NextRequest) {
       
       UNION ALL
       
-      -- Search attendance (using your actual schema)
+      -- Search attendance
       SELECT 
         id,
         'attendance' as type,
-        student_name || ' - ' || class_name as title,
+        COALESCE(student_name, 'Unknown') as title,
         TO_CHAR(date, 'Mon DD, YYYY') as subtitle,
-        'Status: ' || status as description,
+        'Status: ' || COALESCE(status, 'Unknown') as description,
         created_at
       FROM attendance 
       WHERE student_name ILIKE ${searchPattern}
@@ -90,25 +67,27 @@ export async function GET(request: NextRequest) {
       LIMIT ${limit}
     `
 
-    console.log('Search returned', results.length, 'results')
-
-    // Format results for the frontend
+    // Format results with correct URLs to your existing pages
     const formattedResults = results.map((result: any) => {
       let icon = '🔍'
       let href = ''
+      let label = ''
       
       switch (result.type) {
         case 'student':
           icon = '👤'
-          href = `/students/${result.id}`
+          href = '/students'  // Your students page
+          label = 'Go to Students'
           break
         case 'class':
           icon = '📚'
-          href = `/classes/${result.id}`
+          href = '/classes'   // Your classes page
+          label = 'Go to Classes'
           break
         case 'attendance':
           icon = '✅'
-          href = `/attendance`
+          href = '/attendance' // Your attendance page if exists, otherwise remove this
+          label = 'Go to Attendance'
           break
       }
 
@@ -120,6 +99,7 @@ export async function GET(request: NextRequest) {
         description: result.description || '',
         icon,
         href,
+        label,
         createdAt: result.created_at
       }
     })
@@ -131,22 +111,11 @@ export async function GET(request: NextRequest) {
     })
 
   } catch (error) {
-    console.error('Search API error details:', error)
-    
-    // Log specific error information
-    if (error instanceof Error) {
-      console.error('Error name:', error.name)
-      console.error('Error message:', error.message)
-      console.error('Error stack:', error.stack)
-    }
-    
-    return NextResponse.json(
-      { 
-        error: 'Failed to perform search',
-        message: error instanceof Error ? error.message : 'Unknown error',
-        details: process.env.NODE_ENV === 'development' ? String(error) : undefined
-      },
-      { status: 500 }
-    )
+    console.error('Search API error:', error)
+    return NextResponse.json({
+      error: 'Failed to perform search',
+      message: error instanceof Error ? error.message : 'Unknown error',
+      results: []
+    }, { status: 500 })
   }
 }
